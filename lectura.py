@@ -13,6 +13,8 @@ logging.basicConfig(
     format='(%(threadName)-10s) %(message)s',
 )
 
+#python lectura.py D:\Python\BDCARIBE736.csv D:\Python\result\
+
 pattern = re.compile('https://[^,;]+')
 
 params = sys.argv[1:]
